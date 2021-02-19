@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var gameStatusMessageLabel: UILabel!
     @IBOutlet weak var flowerImageView: UIImageView!
     
-    var wordsToGuess = ["SWIFT", "DOG", "CAT"]
+    var wordsToGuess = ["SWIFT", "DOG", "CAT", "JAKE"]
     var currentWordIndex = 0
     var wordToGuess = ""
     var lettersGuessed = ""
